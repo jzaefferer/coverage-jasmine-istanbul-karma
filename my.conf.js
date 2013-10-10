@@ -2,10 +2,10 @@ module.exports = function(config) {
   config.set({
     basePath: '',
     autoWatch: true,
-    frameworks: ['jasmine'],
+    frameworks: ['qunit'],
     files: [
       '*.js',
-      'test/spec/*.js'
+      'test/*.js'
     ],
     browsers: ['PhantomJS'],
 
